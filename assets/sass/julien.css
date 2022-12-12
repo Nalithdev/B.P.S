@@ -164,13 +164,17 @@ nav ul li a:hover {
   align-items: center;
   gap: 5rem;
 }
+@media screen and (max-width: 540px) {
+  .devis {
+    margin: 2rem 0;
+  }
+}
 .devis h2 {
   text-transform: uppercase;
   text-align: center;
   width: 100%;
 }
 .devis form {
-  width: 50%;
   display: flex;
   gap: 3rem;
   padding: 2rem;
@@ -178,10 +182,20 @@ nav ul li a:hover {
   border: #1A1919 solid 1px;
   justify-content: center;
 }
+@media screen and (max-width: 540px) {
+  .devis form {
+    flex-direction: column;
+  }
+}
 .devis form .first {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+@media screen and (max-width: 540px) {
+  .devis form .first {
+    gap: 1rem;
+  }
 }
 .devis form .second {
   display: flex;
