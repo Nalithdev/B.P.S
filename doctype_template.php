@@ -22,7 +22,7 @@
                 <li><a href="blog.php">blog</a></li>
                 <li><a href="#">faq</a></li>
                 <li><a href="devis.php">devis</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="contact.php">contact</a></li>
             </ul>
         </nav>
     </header>

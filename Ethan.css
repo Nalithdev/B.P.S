@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/pwi7gtt.css");
 * {
   padding: 0;
   margin: 0;
@@ -13,15 +14,52 @@
   border-radius: 100px;
 }
 
+:root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: komet, sans-serif;
+}
+
 nav {
   display: flex;
   padding: 2rem 5rem;
   justify-content: space-between;
   background-color: #2856B8;
 }
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 1rem 2.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 1rem 1rem;
+  }
+}
+nav img {
+  height: 60px;
+  width: 60px;
+  margin-right: 2rem;
+}
 nav ul {
   display: flex;
   gap: 2rem;
+}
+@media screen and (max-width: 800px) {
+  nav ul {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
 }
 nav ul li {
   list-style: none;
@@ -31,6 +69,11 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
+}
+@media screen and (max-width: 420px) {
+  nav ul li a {
+    font-size: 0.75rem;
+  }
 }
 nav ul li a:hover {
   text-decoration-line: underline;
@@ -43,9 +86,29 @@ nav ul li a:hover {
   font-size: 2rem;
   color: #1A1919;
 }
+@media screen and (max-width: 800px) {
+  .home_quote {
+    padding: 5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .home_quote {
+    padding: 3rem;
+  }
+}
 
 .home_main {
   padding: 0 5rem;
+}
+@media screen and (max-width: 600px) {
+  .home_main {
+    padding: 0 2.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .home_main {
+    padding: 0 1rem;
+  }
 }
 .home_main .home_first_sign {
   display: flex;
@@ -108,28 +171,80 @@ nav ul li a:hover {
   border-radius: 0.5rem;
 }
 
+.devis {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.devis h2 {
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+.devis form {
+  width: 50%;
+  display: flex;
+  gap: 3rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: #1A1919 solid 1px;
+  justify-content: center;
+}
+.devis form .first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.devis form .second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.devis form .second input {
+  background-color: #c41010;
+  color: white;
+  font-weight: bold;
+}
+.devis form input {
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  border: solid 1px black;
+}
+.devis form textarea {
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  border: solid 1px black;
+  height: 20vh;
+  margin-bottom: 2rem;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  width: auto;
-  padding: 2%;
+  gap: 2.1rem;
+  width: 95%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin: 0 auto;
 }
-
-.card {
-  width: 19.1%;
+.container .card {
+  width: 18%;
+  height: 50vh;
   box-shadow: 5px -5px 30px 2px rgba(26, 25, 25, 0.2);
   text-align: center;
   border-radius: 20px;
 }
-.card h3 {
+.container .card h3 {
   font-size: 1.3rem;
   padding: 5%;
 }
-.card img {
+.container .card img {
   width: 100%;
 }
-.card p {
+.container .card p {
   padding: 5%;
 }
 
@@ -213,11 +328,55 @@ footer div div:nth-of-type(2) div {
   border-radius: 20px;
 }
 
-@media only screen and (max-width: 800px) {
-  .card {
+@media only screen and (max-width: 1080px) {
+  .container .card {
+    width: 31%;
+    height: 60vh;
+  }
+  .container .card p {
+    font-size: 0.8rem;
+  }
+  footer h3 {
+    margin-bottom: 1%;
+    font-size: 1rem;
+  }
+  footer div {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer div div:nth-of-type(1) {
+    display: flex;
     width: 30%;
   }
-  .card p {
+  footer div div:nth-of-type(1) div {
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+  }
+  footer div div:nth-of-type(1) div img {
+    width: 20px;
+    height: 20px;
+  }
+  footer div div:nth-of-type(1) div p {
+    font-size: 0.8rem;
+  }
+  footer div div:nth-of-type(2) {
+    display: flex;
+    gap: 5%;
+    width: 40%;
+  }
+  footer div div:nth-of-type(2) div {
+    padding-top: 2%;
+  }
+  footer div div:nth-of-type(2) div h4 {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container .card {
+    width: 29.9%;
+  }
+  .container .card p {
     font-size: 0.8rem;
   }
   .contact {
@@ -287,6 +446,15 @@ footer div div:nth-of-type(2) div {
   }
   footer div div:nth-of-type(2) div h4 {
     font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .container .card {
+    width: 45%;
+    height: 40vh;
+  }
+  .container .card p {
+    font-size: 0.8rem;
   }
 }
 
