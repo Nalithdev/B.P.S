@@ -1,5 +1,5 @@
 <?php
-include_once 'doctype_template.php';
+require_once 'doctype_template.php';
 ?>
 
 <div class="home_quote">
@@ -36,4 +36,4 @@ include_once 'doctype_template.php';
 
 
 <?php
-require "footer.template.php";
+require_once "footer_template.php";

@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/pwi7gtt.css");
+
 :root {
   font-size: 16px;
 }
@@ -6,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: komet, sans-serif;
 }
 
 nav {
@@ -14,10 +16,29 @@ nav {
   padding: 2rem 5rem;
   justify-content: space-between;
   background-color: #2856B8;
+  @media screen and (max-width:600px) {
+    padding: 1rem 2.5rem;
+  }
+  @media screen and (max-width:480px) {
+    padding: 1rem 1rem;
+  }
+
+  img {
+    height: 60px;
+    width: 60px;
+    margin-right: 2rem;
+  }
 
   ul {
     display: flex;
     gap: 2rem;
+    @media screen and (max-width:800px) {
+      gap: 1rem;
+    }
+    @media screen and (max-width:480px) {
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
 
     li {
       list-style: none;
@@ -27,6 +48,9 @@ nav {
         text-decoration: none;
         text-transform: uppercase;
         color: #ffffff;
+        @media screen and (max-width:420px) {
+          font-size: 0.75rem;
+        }
 
         &:hover {
           text-decoration-line: underline;
@@ -42,10 +66,22 @@ nav {
   padding: 8rem;
   font-size: 2rem;
   color: #1A1919;
+  @media screen and (max-width:800px) {
+    padding: 5rem;
+  }
+  @media screen and (max-width:480px) {
+    padding: 3rem;
+  }
 }
 
 .home_main {
   padding: 0 5rem;
+  @media screen and (max-width:600px) {
+    padding: 0 2.5rem;
+  }
+  @media screen and (max-width:480px) {
+    padding: 0 1rem;
+  }
 
   .home_first_sign {
     display: flex;
@@ -114,6 +150,63 @@ nav {
         width: 100%;
         border-radius: 0.5rem;
       }
+    }
+  }
+}
+
+.devis {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+  }
+
+  form {
+    width: 50%;
+    display: flex;
+    gap: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: #1A1919 solid 1px;
+    justify-content: center;
+
+    .first {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .second {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      input {
+        background-color: #c41010;
+        color: white;
+        font-weight: bold;
+      }
+    }
+
+    input {
+      padding: 0.25rem;
+      border-radius: 0.5rem;
+      border: solid 1px black;
+    }
+
+    textarea {
+      padding: 0.25rem;
+      border-radius: 0.5rem;
+      border: solid 1px black;
+      height: 20vh;
+      margin-bottom: 2rem;
     }
   }
 }

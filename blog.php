@@ -1,5 +1,5 @@
 <?php
-require "doctype_template.php";
+require_once "doctype_template.php";
 ?>
 
 <main>
@@ -44,17 +44,8 @@ require "doctype_template.php";
             <img src="img/sign.webp">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, recusandae! </p>
         </div>
-
-
-
     </div>
-
-
-
-
 </main>
 
-
-
 <?php
-require "footer.template.php";
+require_once "footer_template.php";

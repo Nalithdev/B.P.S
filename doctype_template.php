@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="Ethan.css" />
     <link rel="stylesheet" href="/assets/sass/julien.css" />
+    <link rel="preconnect" href="https://use.typekit.net/pwi7gtt.css">
     <title>Document</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
                 <li><a href="index.php">accueil</a></li>
                 <li><a href="blog.php">blog</a></li>
                 <li><a href="#">faq</a></li>
-                <li><a href="#">devis</a></li>
+                <li><a href="devis.php">devis</a></li>
                 <li><a href="#">contact</a></li>
             </ul>
         </nav>
