@@ -1,0 +1,26 @@
+* {
+  font-family: komet, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.containerFAQ {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 50px;
+}
+.containerFAQ > div {
+  height: 200px;
+  width: 80%;
+  background-color: #2856B8;
+}
+.containerFAQ > div .hidden {
+  display: none;
+}
+
+.questionFAQ.hidden {
+  height: 100px;
+}
+
+/*# sourceMappingURL=mehdi-bellam.css.map */

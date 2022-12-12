@@ -1,0 +1,42 @@
+//@import url("https://use.typekit.net/pwi7gtt.css");
+// VAR
+$blue-background : #2856B8 ;
+$red-background : #FE0102 ;
+$yellow : #F9D84B ;
+
+$black : #1A1919 ;
+$white : #FFFFFF ;
+*{
+  font-family: komet , sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.containerFAQ {
+
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 50px;
+
+  
+
+  > div {
+  height: 200px;
+  width: 80%;
+  
+  background-color: $blue-background;
+  
+  
+ 
+    .hidden {
+      display: none;
+    }
+ 
+
+}}
+.questionFAQ.hidden{
+  height: 100px;
+  
+
+}
