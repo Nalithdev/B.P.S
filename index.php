@@ -21,7 +21,7 @@ include_once 'doctype_template.php';
     <section class="home_other_sign">
         <div>
             <h3>Le panneau</h3>
-            <img src="/assets/img/sign.webp" alt="">
+            <img src="img/sign.webp" alt="">
         </div>
         <div>
             <h3>Le panneau</h3>
@@ -35,4 +35,5 @@ include_once 'doctype_template.php';
 </main>
 
 
-
+<?php
+require "footer.template.php";
