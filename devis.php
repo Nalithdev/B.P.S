@@ -1,5 +1,5 @@
 <?php
-include_once 'doctype_template.php';
+require_once 'doctype_template.php';
 ?>
 
 <section class="devis">
@@ -17,3 +17,6 @@ include_once 'doctype_template.php';
 
     </form>
 </section>
+
+<?php
+require_once 'footer_template.php';
