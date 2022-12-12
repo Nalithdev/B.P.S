@@ -5,8 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/assets/sass/julien.css" />
+
     <link rel="stylesheet" href="Ethan.css" />
+    <link rel="stylesheet" href="/assets/sass/julien.css" />
     <title>Document</title>
 </head>
 <body>
@@ -16,8 +17,8 @@
                 <img src="" alt="logo">
             </a>
             <ul>
-                <li><a href="#">accueil</a></li>
-                <li><a href="#">blog</a></li>
+                <li><a href="index.php">accueil</a></li>
+                <li><a href="blog.php">blog</a></li>
                 <li><a href="#">faq</a></li>
                 <li><a href="#">devis</a></li>
                 <li><a href="#">contact</a></li>
