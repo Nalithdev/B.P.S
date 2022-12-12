@@ -22,10 +22,15 @@ font-style: normal;
   
 
   > div {
+    align-items: center;
   height: 200px;
   width: 80%;
+  padding: 20px;
+ border-bottom: 3px solid $black;
+ border-top: 3px solid $black;
   
   background-color: $blue-background;
+  
   
   
  
@@ -36,7 +41,24 @@ font-style: normal;
 
 }}
 .questionFAQ.hidden{
-  height: 100px;
+  height: 50px;
+  
   
 
+}
+.TitleAndIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   align-items: center;
+}
+.TitleAndIcon:hover {
+  color: $yellow;
+}
+.fa-solid {
+  font-size: 30px;
+}
+.questionTitle{
+  margin-top: auto;
+  margin-bottom: auto;
 }

@@ -11,8 +11,12 @@
   row-gap: 50px;
 }
 .containerFAQ > div {
+  align-items: center;
   height: 200px;
   width: 80%;
+  padding: 20px;
+  border-bottom: 3px solid #1A1919;
+  border-top: 3px solid #1A1919;
   background-color: #2856B8;
 }
 .containerFAQ > div .hidden {
@@ -20,7 +24,27 @@
 }
 
 .questionFAQ.hidden {
-  height: 100px;
+  height: 50px;
+}
+
+.TitleAndIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TitleAndIcon:hover {
+  color: #F9D84B;
+}
+
+.fa-solid {
+  font-size: 30px;
+}
+
+.questionTitle {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /*# sourceMappingURL=mehdi-bellam.css.map */
