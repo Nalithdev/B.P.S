@@ -16,10 +16,29 @@ nav {
   padding: 2rem 5rem;
   justify-content: space-between;
   background-color: #2856B8;
+  @media screen and (max-width:600px) {
+    padding: 1rem 2.5rem;
+  }
+  @media screen and (max-width:480px) {
+    padding: 1rem 1rem;
+  }
+
+  img {
+    height: 60px;
+    width: 60px;
+    margin-right: 2rem;
+  }
 
   ul {
     display: flex;
     gap: 2rem;
+    @media screen and (max-width:800px) {
+      gap: 1rem;
+    }
+    @media screen and (max-width:480px) {
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
 
     li {
       list-style: none;
@@ -29,6 +48,9 @@ nav {
         text-decoration: none;
         text-transform: uppercase;
         color: #ffffff;
+        @media screen and (max-width:420px) {
+          font-size: 0.75rem;
+        }
 
         &:hover {
           text-decoration-line: underline;
@@ -44,10 +66,22 @@ nav {
   padding: 8rem;
   font-size: 2rem;
   color: #1A1919;
+  @media screen and (max-width:800px) {
+    padding: 5rem;
+  }
+  @media screen and (max-width:480px) {
+    padding: 3rem;
+  }
 }
 
 .home_main {
   padding: 0 5rem;
+  @media screen and (max-width:600px) {
+    padding: 0 2.5rem;
+  }
+  @media screen and (max-width:480px) {
+    padding: 0 1rem;
+  }
 
   .home_first_sign {
     display: flex;

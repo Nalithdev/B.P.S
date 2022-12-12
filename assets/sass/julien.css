@@ -16,9 +16,35 @@ nav {
   justify-content: space-between;
   background-color: #2856B8;
 }
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 1rem 2.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 1rem 1rem;
+  }
+}
+nav img {
+  height: 60px;
+  width: 60px;
+  margin-right: 2rem;
+}
 nav ul {
   display: flex;
   gap: 2rem;
+}
+@media screen and (max-width: 800px) {
+  nav ul {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
 }
 nav ul li {
   list-style: none;
@@ -28,6 +54,11 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
+}
+@media screen and (max-width: 420px) {
+  nav ul li a {
+    font-size: 0.75rem;
+  }
 }
 nav ul li a:hover {
   text-decoration-line: underline;
@@ -40,9 +71,29 @@ nav ul li a:hover {
   font-size: 2rem;
   color: #1A1919;
 }
+@media screen and (max-width: 800px) {
+  .home_quote {
+    padding: 5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .home_quote {
+    padding: 3rem;
+  }
+}
 
 .home_main {
   padding: 0 5rem;
+}
+@media screen and (max-width: 600px) {
+  .home_main {
+    padding: 0 2.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .home_main {
+    padding: 0 1rem;
+  }
 }
 .home_main .home_first_sign {
   display: flex;
