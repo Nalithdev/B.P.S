@@ -2,9 +2,9 @@
 include_once 'doctype_template.php';
 ?>
 
-  <body>
-    <div class="containerFAQ">
-      <div class="questionFAQ questionFAQ1 hidden"  id='1' >
+ 
+<div class="containerFAQ">
+      <div class="questionFAQ questionFAQ1 hidden"   >
         <div class="TitleAndIcon">
           <h1 class="questionTitle ">TITRE</h1>
            <i class="fa-solid fa-plus"></i>
@@ -35,7 +35,7 @@ include_once 'doctype_template.php';
           commodi?
         </p>
       </div>
-      <div class="questionFAQ questionFAQ1 hidden"  id='1' >
+      <div class="questionFAQ questionFAQ1 hidden"   >
         <div class="TitleAndIcon">
           <h1 class="questionTitle ">TITRE</h1>
            <i class="fa-solid fa-plus"></i>
@@ -50,7 +50,7 @@ include_once 'doctype_template.php';
           id amet est quas!
         </p>
       </div>
-       <div class="questionFAQ questionFAQ1 hidden"  id='1' >
+       <div class="questionFAQ questionFAQ1 hidden"   >
          <div class="TitleAndIcon">
           <h1 class="questionTitle ">TITRE</h1>
            <i class="fa-solid fa-plus"></i>
@@ -65,7 +65,7 @@ include_once 'doctype_template.php';
           id amet est quas!
         </p>
       </div>
-      <div class="questionFAQ questionFAQ1 hidden"  id='1' >
+      <div class="questionFAQ questionFAQ1 hidden"   >
         <div class="TitleAndIcon">
           <h1 class="questionTitle ">TITRE</h1>
            <i class="fa-solid fa-plus"></i>
@@ -80,7 +80,7 @@ include_once 'doctype_template.php';
           id amet est quas!
         </p>
       </div>
-       <div class="questionFAQ questionFAQ1 hidden"  id='1' >
+       <div class="questionFAQ questionFAQ1 hidden"   >
         <div class="TitleAndIcon">
           <h1 class="questionTitle ">TITRE</h1>
            <i class="fa-solid fa-plus"></i>
@@ -95,7 +95,8 @@ include_once 'doctype_template.php';
           id amet est quas!
         </p>
       </div>
-   
+</div>
+    <script  src="faq.js"></script>
   </body>
-      <script type="text/javascript" src="faq.js"></script>
+     
 </html>
