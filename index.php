@@ -8,7 +8,7 @@ require_once 'doctype_template.php';
 
 <main class="home_main">
     <section class="home_first_sign">
-        <img src="/assets/img/sign.webp" alt="">
+        <img src="/assets/img/sign.webp" alt="sign up">
         <div class="home_first_sign_info">
             <div>
                 <h2>Titre</h2>
@@ -21,15 +21,15 @@ require_once 'doctype_template.php';
     <section class="home_other_sign">
         <div>
             <h3>Le panneau</h3>
-            <img src="img/sign.webp" alt="">
+            <img src="img/sign.webp" alt="panneaux">
         </div>
         <div>
             <h3>Le panneau</h3>
-            <img src="/assets/img/sign.webp" alt="">
+            <img src="/assets/img/sign.webp" alt="panneau">
         </div>
         <div>
             <h3>Le panneau</h3>
-            <img src="/assets/img/sign.webp" alt="">
+            <img src="/assets/img/sign.webp" alt="panneau">
         </div>
     </section>
 </main>
