@@ -6,7 +6,7 @@ include_once 'doctype_template.php';
 <div class="containerFAQ">
       <div class="questionFAQ questionFAQ1 hidden"   >
         <div class="TitleAndIcon">
-          <h1 class="questionTitle ">TITRE</h1>
+          <h3 class="questionTitle ">TITRE</h3>
            <i class="fa-solid fa-plus"></i>
         </div>
         <p class="questionResponse hidden">
@@ -21,7 +21,7 @@ include_once 'doctype_template.php';
       </div>
       <div class="questionFAQ questionFAQ2 hidden">
         <div class="TitleAndIcon">
-          <h1 class="questionTitle ">TITRE</h1>
+          <h3 class="questionTitle ">TITRE</h3>
            <i class="fa-solid fa-plus"></i>
         </div>
         <p class="questionResponse hidden">
@@ -37,7 +37,7 @@ include_once 'doctype_template.php';
       </div>
       <div class="questionFAQ questionFAQ1 hidden"   >
         <div class="TitleAndIcon">
-          <h1 class="questionTitle ">TITRE</h1>
+          <h3 class="questionTitle ">TITRE</h3>
            <i class="fa-solid fa-plus"></i>
         </div>
         <p class="questionResponse hidden">
@@ -52,7 +52,7 @@ include_once 'doctype_template.php';
       </div>
        <div class="questionFAQ questionFAQ1 hidden"   >
          <div class="TitleAndIcon">
-          <h1 class="questionTitle ">TITRE</h1>
+        <h3 class="questionTitle ">TITRE</h3>
            <i class="fa-solid fa-plus"></i>
         </div>
         <p class="questionResponse hidden">
@@ -67,7 +67,7 @@ include_once 'doctype_template.php';
       </div>
       <div class="questionFAQ questionFAQ1 hidden"   >
         <div class="TitleAndIcon">
-          <h1 class="questionTitle ">TITRE</h1>
+         <h3 class="questionTitle ">TITRE</h3>
            <i class="fa-solid fa-plus"></i>
         </div>
         <p class="questionResponse hidden">
@@ -82,7 +82,7 @@ include_once 'doctype_template.php';
       </div>
        <div class="questionFAQ questionFAQ1 hidden"   >
         <div class="TitleAndIcon">
-          <h1 class="questionTitle ">TITRE</h1>
+          <h3 class="questionTitle ">TITRE</h3>
            <i class="fa-solid fa-plus"></i>
         </div>
         <p class="questionResponse hidden">
