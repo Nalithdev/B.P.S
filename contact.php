@@ -7,7 +7,7 @@ include_once 'doctype_template.php';
 
         <div>
             <h1>Nous contacter</h1>
-            <div class="contact">
+            <div class="cont">
 
             <div>
                 <p>Numéro de téléphone :</p>

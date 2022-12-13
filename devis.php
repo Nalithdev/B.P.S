@@ -1,7 +1,7 @@
 <?php
 require_once 'doctype_template.php';
 ?>
-
+<div class="devis_height">
 <section class="devis">
     <h2>devis</h2>
     <form>
@@ -20,3 +20,5 @@ require_once 'doctype_template.php';
 
 <?php
 require_once 'footer_template.php';
+?>
+</div>

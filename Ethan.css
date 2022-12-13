@@ -25,8 +25,23 @@
   font-family: komet, sans-serif;
 }
 
+body {
+  background-image: url("img/quiz_reviser_panneaux_signalisation_route_france.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 1080px) {
+  body {
+    background-position: right;
+  }
+}
+
 nav {
   display: flex;
+  width: 100%;
+  position: fixed;
   padding: 2rem 5rem;
   justify-content: space-between;
   background-color: #2856B8;
@@ -81,36 +96,99 @@ nav ul li a:hover {
 
 .home_quote {
   width: 100%;
+  height: 100vh;
   text-align: center;
   padding: 8rem;
   font-size: 2rem;
   color: #1A1919;
+  background-color: rgba(26, 25, 25, 0.6);
+}
+.home_quote p {
+  margin: auto;
+  width: 85%;
+  color: #ffffff;
+  padding: 2%;
+  margin-bottom: 10%;
+}
+.home_quote button {
+  height: 50px;
+  width: 200px;
+}
+@media screen and (max-width: 1080px) {
+  .home_quote {
+    padding: 3rem;
+    padding-top: 15%;
+  }
+  .home_quote p {
+    width: 90%;
+    margin-bottom: 7.5%;
+    font-size: 0.8rem;
+  }
 }
 @media screen and (max-width: 800px) {
   .home_quote {
-    padding: 5rem;
+    padding: 3rem;
+    padding-top: 15%;
+  }
+  .home_quote p {
+    margin: auto;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 1%;
+    margin-bottom: 10%;
+    font-size: 0.75rem;
+  }
+  .home_quote button {
+    height: 50px;
+    width: 200px;
   }
 }
 @media screen and (max-width: 480px) {
   .home_quote {
-    padding: 3rem;
+    padding: 2rem;
+    padding-top: 17.5%;
+  }
+  .home_quote p {
+    margin: auto;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 2%;
+    margin-bottom: 10%;
+    font-size: 0.65rem;
+  }
+  .home_quote button {
+    height: 50px;
+    width: 200px;
   }
 }
 
 .home_main {
   padding: 0 5rem;
+  background-color: #FFFFFF;
+  height: 66vh;
+}
+@media screen and (max-width: 1080px) {
+  .home_main {
+    padding: 0 2.5rem;
+    height: 76vh;
+  }
+}
+@media screen and (max-width: 800px) {
+  .home_main {
+    padding: 0 2.5rem;
+    padding-top: 0.75rem;
+    height: 74vh;
+  }
 }
 @media screen and (max-width: 600px) {
   .home_main {
-    padding: 0 2.5rem;
-  }
-}
-@media screen and (max-width: 480px) {
-  .home_main {
     padding: 0 1rem;
+    padding-top: 1rem;
+    height: 80vh;
   }
 }
 .home_main .home_first_sign {
+  padding-top: 12%;
   display: flex;
   gap: 2rem;
 }
@@ -118,17 +196,28 @@ nav ul li a:hover {
   .home_main .home_first_sign {
     flex-direction: column;
     align-items: center;
+    padding-top: 2%;
   }
 }
 .home_main .home_first_sign img {
-  width: 60%;
+  width: 20%;
   aspect-ratio: 4/3;
   border-radius: 1rem;
   object-fit: cover;
 }
+@media screen and (max-width: 1080px) {
+  .home_main .home_first_sign img {
+    width: 35%;
+  }
+}
 @media screen and (max-width: 800px) {
   .home_main .home_first_sign img {
-    width: 100%;
+    width: 30%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home_main .home_first_sign img {
+    width: 30%;
   }
 }
 .home_main .home_first_sign .home_first_sign_info {
@@ -171,13 +260,29 @@ nav ul li a:hover {
   border-radius: 0.5rem;
 }
 
+.devis_height {
+  min-height: 100vh;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .devis {
-  min-height: 70vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 5rem;
+}
+@media screen and (max-width: 540px) {
+  .devis {
+    padding: 1rem 0;
+    height: 90vh;
+    padding-top: 10vh;
+    gap: 1rem;
+  }
 }
 .devis h2 {
   text-transform: uppercase;
@@ -185,7 +290,6 @@ nav ul li a:hover {
   width: 100%;
 }
 .devis form {
-  width: 50%;
   display: flex;
   gap: 3rem;
   padding: 2rem;
@@ -193,10 +297,20 @@ nav ul li a:hover {
   border: #1A1919 solid 1px;
   justify-content: center;
 }
+@media screen and (max-width: 540px) {
+  .devis form {
+    flex-direction: column;
+  }
+}
 .devis form .first {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+@media screen and (max-width: 540px) {
+  .devis form .first {
+    gap: 1rem;
+  }
 }
 .devis form .second {
   display: flex;
@@ -222,17 +336,21 @@ nav ul li a:hover {
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2.1rem;
-  width: 95%;
-  padding-bottom: 5%;
-  padding-top: 5%;
+  width: 100%;
+  background-color: #FFFFFF;
   margin: 0 auto;
+}
+.container .c2 {
+  display: flex;
+  gap: 2.1rem;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  padding-top: 10%;
 }
 .container .card {
   width: 18%;
-  height: 50vh;
   box-shadow: 5px -5px 30px 2px rgba(26, 25, 25, 0.2);
   text-align: center;
   border-radius: 20px;
@@ -250,22 +368,27 @@ nav ul li a:hover {
 
 .contact {
   display: block;
+  padding-top: 4.5%;
+  background-color: #FFFFFF;
+}
+.contact div:nth-of-type(1) {
+  padding-bottom: 2%;
 }
 .contact div:nth-of-type(1) h1 {
   padding-top: 5%;
   margin-left: 6%;
   font-size: 1.7rem;
 }
-.contact div:nth-of-type(1) .contact {
+.contact div:nth-of-type(1) .cont {
   height: 50vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.contact div:nth-of-type(1) .contact p {
+.contact div:nth-of-type(1) .cont p {
   font-size: 1.2rem;
 }
-.contact div:nth-of-type(1) .contact img {
+.contact div:nth-of-type(1) .cont img {
   width: 250px;
   height: 250px;
   border-radius: 50px;
@@ -336,6 +459,32 @@ footer div div:nth-of-type(2) div {
   .container .card p {
     font-size: 0.8rem;
   }
+  .contact {
+    padding-top: 7%;
+    height: 100vh;
+  }
+  .contact div:nth-of-type(1) {
+    padding-bottom: 2%;
+  }
+  .contact div:nth-of-type(1) h1 {
+    padding-top: 5%;
+    margin-left: 6%;
+    font-size: 1.7rem;
+  }
+  .contact div:nth-of-type(1) .cont {
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .contact div:nth-of-type(1) .cont p {
+    font-size: 1.2rem;
+  }
+  .contact div:nth-of-type(1) .cont img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+  }
   footer h3 {
     margin-bottom: 1%;
     font-size: 1rem;
@@ -383,24 +532,24 @@ footer div div:nth-of-type(2) div {
     display: block;
   }
   .contact div:nth-of-type(1) h1 {
-    padding-top: 5%;
-    margin-left: 6%;
+    padding-top: 10%;
     font-size: 1.5em;
   }
-  .contact div:nth-of-type(1) .contact {
+  .contact div:nth-of-type(1) .cont {
     justify-content: space-around;
   }
-  .contact div:nth-of-type(1) .contact p {
-    font-size: 0.8rem;
+  .contact div:nth-of-type(1) .cont p {
+    font-size: 1rem;
   }
-  .contact div:nth-of-type(1) .contact img {
-    width: 100px;
-    height: 100px;
+  .contact div:nth-of-type(1) .cont img {
+    width: 200px;
+    height: 200px;
     border-radius: 25px;
   }
   .contact div:nth-of-type(2) h2 {
     margin-left: 6%;
     font-size: 1.2rem;
+    padding-bottom: 7.5%;
   }
   .contact div:nth-of-type(2) div {
     display: flex;
@@ -449,9 +598,47 @@ footer div div:nth-of-type(2) div {
   }
 }
 @media only screen and (max-width: 700px) {
+  .container .c2 {
+    padding-top: 16%;
+  }
   .container .card {
     width: 45%;
-    height: 40vh;
+  }
+  .container .card p {
+    font-size: 0.8rem;
+  }
+}
+.contact {
+  display: block;
+  padding-top: 20%;
+}
+.contact div:nth-of-type(1) {
+  margin-bottom: 10%;
+}
+.contact div:nth-of-type(1) h1 {
+  padding-top: 10%;
+  font-size: 1.2em;
+}
+.contact div:nth-of-type(1) .cont {
+  justify-content: space-around;
+  height: 40vh;
+}
+.contact div:nth-of-type(1) .cont p {
+  font-size: 0.8rem;
+}
+.contact div:nth-of-type(1) .cont img {
+  width: 125px;
+  height: 125px;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 360px) {
+  .container .c2 {
+    padding-top: 30%;
+  }
+  .container .card {
+    margin: auto;
+    width: 70%;
   }
   .container .card p {
     font-size: 0.8rem;
