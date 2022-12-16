@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <link rel="stylesheet" href="Ethan.css" >
-    <link rel="stylesheet" href="/assets/sass/julien.css" >
 
     <link rel="preconnect" href="https://use.typekit.net/pwi7gtt.css">
 
@@ -34,7 +33,7 @@
                 <li><a href="blog.php">Blog</a></li>
                 <li><a href="faq.php">FAQ</a></li>
                 <li><a href="produit.php">Produits</a></li>
-                <li class="btn"><a href="devis.php">Devis</a></li>
+                <li><a href="devis.php">Devis</a></li>
                 <li class="btn"><a href="contact.php">Contact</a></li>
             </ul>
         </nav>

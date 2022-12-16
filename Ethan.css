@@ -43,10 +43,10 @@ nav {
   width: 100%;
   position: fixed;
   padding: 2rem 5rem;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: rgb(255, 233, 87);
 }
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   nav {
     padding: 1rem 2.5rem;
   }
@@ -68,6 +68,8 @@ nav ul {
 @media screen and (max-width: 800px) {
   nav ul {
     gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 }
 @media screen and (max-width: 480px) {
@@ -93,6 +95,11 @@ nav ul li a {
 }
 nav ul li a:hover {
   text-decoration-line: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #1A1919;
 }
 
 .btn {
@@ -398,6 +405,31 @@ nav ul li a:hover {
   padding: 5%;
 }
 
+.containerProduits {
+  padding-top: 2%;
+  display: block;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding-bottom: 8rem;
+}
+.containerProduits h2 {
+  padding-bottom: 6rem;
+  font-size: 2rem;
+}
+.containerProduits div:nth-of-type(2) {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+.containerProduits button {
+  width: 40%;
+  background-color: white;
+  border-radius: 100px;
+  padding: 1%;
+}
+
 .titreFAQ {
   background-color: #FFFFFF;
   text-align: center;
@@ -630,6 +662,9 @@ footer div div:nth-of-type(2) div {
   .container .card p {
     font-size: 0.8rem;
   }
+  .containerProduits {
+    padding-top: 6rem;
+  }
   .contact {
     display: block;
   }
@@ -708,6 +743,9 @@ footer div div:nth-of-type(2) div {
   }
   .container .card p {
     font-size: 0.8rem;
+  }
+  .containerProduits {
+    padding-top: 8rem;
   }
   .contact {
     display: block;

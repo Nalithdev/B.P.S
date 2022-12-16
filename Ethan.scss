@@ -47,12 +47,14 @@ nav {
   width: 100%;
   position: fixed;
   padding: 2rem 5rem;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: rgb(255, 233, 87);
 
-  @media screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     padding: 1rem 2.5rem;
+
   }
+
   @media screen and (max-width: 480px) {
     padding: 1rem 1rem;
   }
@@ -69,6 +71,10 @@ nav {
 
     @media screen and (max-width: 800px) {
       gap: 1rem;
+
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
     }
     @media screen and (max-width: 480px) {
       flex-wrap: wrap;
@@ -94,6 +100,10 @@ nav {
       }
     }
   }
+}
+a{
+  text-decoration: none;
+  color: #1A1919;
 }
 .btn{
   background-color: #FFFFFF;
@@ -420,13 +430,33 @@ nav {
 
 }
 
+// PAGE PRODUITS
+.containerProduits {
+  padding-top: 2%;
 
+  display: block;
+  justify-content: space-evenly;
 
-
-
-
-//FAQ PAGE
-//@import url("https://use.typekit.net/pwi7gtt.css");
+  width: 100%;
+  background-color: #FFFFFF;
+  padding-bottom: 8rem;
+  h2{
+    padding-bottom: 6rem;
+    font-size: 2rem;
+  }
+  div:nth-of-type(2){
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 6rem;
+  }
+  button{
+    width: 40%;
+    background-color: white;
+    border-radius: 100px;
+    padding: 1%;
+  }
+}
 
 //FAQ PAGE
 // VAR
@@ -755,6 +785,9 @@ footer {
       }
     }
   }
+  .containerProduits {
+    padding-top: 6rem;
+  }
 
   //CONTACT
 
@@ -868,6 +901,11 @@ footer {
         font-size: 0.8rem;
       }
     }
+  }
+
+  // PAGE PRODUITS
+  .containerProduits {
+    padding-top: 8rem;
   }
 
   //CONTACT

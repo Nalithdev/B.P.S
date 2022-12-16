@@ -3,8 +3,6 @@
     <div>
         <div>
             <div>
-
-                <a href=""><img src="img/twitter_log.png" alt="twiiter"> </a>
                 <a href=""><img src="img/logo-facebook.png" alt="facebook"></a>
                 <a href=""><img src="img/LinkedIn-Symbole.png" alt="linkedin"></a>
             </div>
