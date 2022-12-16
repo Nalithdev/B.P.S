@@ -43,7 +43,7 @@ nav {
   width: 100%;
   position: fixed;
   padding: 2rem 5rem;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: rgb(255, 233, 87);
 }
 @media only screen and (max-width: 600px) {
@@ -68,8 +68,6 @@ nav ul {
 @media screen and (max-width: 800px) {
   nav ul {
     gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: flex-end;
   }
 }
 @media screen and (max-width: 480px) {
@@ -320,18 +318,25 @@ a {
   text-transform: uppercase;
   text-align: center;
   width: 100%;
+  font-size: 2rem;
 }
 .devis form {
   display: flex;
+  flex-direction: column;
   gap: 3rem;
-  padding: 2rem;
+  padding: 4rem;
   border-radius: 1rem;
-  border: #1A1919 solid 1px;
+  width: 50%;
   justify-content: center;
 }
 @media screen and (max-width: 540px) {
   .devis form {
-    flex-direction: column;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .devis form {
+    width: 100%;
   }
 }
 .devis form .first {
@@ -350,9 +355,16 @@ a {
   justify-content: space-between;
 }
 .devis form .second input {
-  background-color: #c41010;
-  color: white;
   font-weight: bold;
+}
+.devis form .second .submit {
+  width: 20%;
+  margin: auto;
+}
+@media screen and (max-width: 540px) {
+  .devis form .second .submit {
+    width: 35%;
+  }
 }
 .devis form input {
   padding: 0.25rem;
@@ -363,7 +375,7 @@ a {
   padding: 0.25rem;
   border-radius: 0.5rem;
   border: solid 1px black;
-  height: 20vh;
+  height: 30vh;
   margin-bottom: 2rem;
 }
 
@@ -565,6 +577,7 @@ footer div div:nth-of-type(1) {
 footer div div:nth-of-type(1) div {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
   width: 100%;
 }
 footer div div:nth-of-type(1) div img {

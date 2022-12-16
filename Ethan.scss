@@ -47,7 +47,7 @@ nav {
   width: 100%;
   position: fixed;
   padding: 2rem 5rem;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: rgb(255, 233, 87);
 
   @media only screen and (max-width: 600px) {
@@ -71,9 +71,6 @@ nav {
 
     @media screen and (max-width: 800px) {
       gap: 1rem;
-
-      flex-wrap: wrap;
-      justify-content: flex-end;
 
     }
     @media screen and (max-width: 480px) {
@@ -315,6 +312,7 @@ a{
     height: 90vh;
     padding-top: 10vh;
     gap: 1rem;
+
   }
   h1{
     font-size: 2rem;
@@ -323,17 +321,24 @@ a{
     text-transform: uppercase;
     text-align: center;
     width: 100%;
+    font-size: 2rem;
   }
 
   form {
     display: flex;
+    flex-direction: column;
     gap: 3rem;
-    padding: 2rem;
+    padding: 4rem;
     border-radius: 1rem;
-    border: #1A1919 solid 1px;
+    width: 50%;
     justify-content: center;
     @media screen and (max-width: 540px) {
-      flex-direction: column;
+
+      width: 100%;
+    }
+    @media screen and (max-width: 800px) {
+
+      width: 100%;
     }
 
     .first {
@@ -343,6 +348,7 @@ a{
       @media screen and (max-width: 540px) {
         gap: 1rem;
       }
+
     }
 
     .second {
@@ -351,9 +357,14 @@ a{
       justify-content: space-between;
 
       input {
-        background-color: #c41010;
-        color: white;
         font-weight: bold;
+      }
+      .submit{
+        width: 20%;
+        margin: auto;
+        @media screen and (max-width: 540px) {
+          width: 35%;
+        }
       }
     }
 
@@ -367,7 +378,7 @@ a{
       padding: 0.25rem;
       border-radius: 0.5rem;
       border: solid 1px black;
-      height: 20vh;
+      height: 30vh;
       margin-bottom: 2rem;
     }
   }
@@ -642,11 +653,15 @@ footer {
 
     div:nth-of-type(1) {
       display: flex;
+
       width: 25%;
 
       div {
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
+
+
         width: 100%;
 
         img {

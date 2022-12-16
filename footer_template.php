@@ -12,8 +12,10 @@
             </div>
         </div>
         <div>
-            <div><h4>Posez nous votre question</h4></div>
-            <div><h4>Faire un Devis</h4></div>
+
+            <div><a href="contact.php"><h4>Nous contacté</h4></a></div>
+
+            <div><a href="devis.php"><h4>Faire un Devis</h4></a></div>
         </div>
     </div>
 

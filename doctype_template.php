@@ -24,8 +24,6 @@
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="blog.php">Blog</a></li>
                 <li><a href="faq.php">FAQ</a></li>
-                <li><a href="produit.php">Produits</a></li>
-                <li><a href="devis.php">Devis</a></li>
                 <li class="btn"><a href="contact.php">Contact</a></li>
             </ul>
         </nav>

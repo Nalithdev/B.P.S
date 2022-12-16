@@ -11,7 +11,6 @@ require_once 'doctype_template.php';
         commodo consequat. Duis aute irure dolor in reprehenderit
         in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><div>
-        <a href="devis.php"><button>Faire un devis</button></a>
     </div>
 </div>
 
@@ -21,7 +20,7 @@ require_once 'doctype_template.php';
         <h2 class="font-color"> Catégories</h2>
         <h2>phares</h2>
     </div>
-    <section class="home_first_sign">
+    <div class="home_first_sign">
         <div>
             <a href="produit.php">
         <img src="img/sign.webp" alt="">
@@ -40,7 +39,7 @@ require_once 'doctype_template.php';
             <p>Travaux</p>
             </a>
         </div>
-    </section>
+    </div>
     <div class="home_first_sign_info">
         <div>
             <h2>Titre</h2>
