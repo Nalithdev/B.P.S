@@ -1,9 +1,14 @@
 <?php
 require_once 'doctype_template.php';
 ?>
+<div class="home_quote">
+
+</div>
 <div class="devis_height">
 <section class="devis">
-    <h2>devis</h2>
+
+        <h1 class="font-color ">Devis</h1>
+
     <form>
         <div class="first">
             <input type="text" placeholder="Nom">

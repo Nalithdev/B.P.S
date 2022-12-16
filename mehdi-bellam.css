@@ -5,26 +5,30 @@
 }
 
 .containerFAQ {
+  padding-top: 125px;
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  row-gap: 50px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #FFFFFF;
 }
 .containerFAQ > div {
   align-items: center;
-  height: 200px;
-  width: 80%;
   padding: 20px;
-  border-bottom: 3px solid #1A1919;
-  border-top: 3px solid #1A1919;
-  background-color: #2856B8;
+  width: 460px;
+  height: 20%;
+  border-radius: 3px;
 }
 .containerFAQ > div .hidden {
   display: none;
+  width: 460px;
+  height: 85px;
+  color: yellow;
 }
 
 .questionFAQ.hidden {
-  height: 50px;
+  width: 460px;
+  height: 40vh;
 }
 
 .TitleAndIcon {
@@ -32,19 +36,30 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #6c91df;
+  border-radius: 4px;
+  padding: 4px;
 }
 
 .TitleAndIcon:hover {
-  color: #F9D84B;
+  color: #FE0102;
 }
 
 .fa-solid {
   font-size: 30px;
+  padding-right: 1rem;
 }
 
 .questionTitle {
   margin-top: auto;
   margin-bottom: auto;
+  font-size: xx-large;
+  padding-left: 1rem;
+}
+
+p.questionResponse {
+  background-color: #2856B8;
+  padding: 5%;
 }
 
 /*# sourceMappingURL=mehdi-bellam.css.map */

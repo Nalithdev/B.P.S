@@ -4,9 +4,9 @@
         <div>
             <div>
 
-                <a href=""><img src="img/twitter_log.png"> </a>
-                <a href=""><img src="img/logo-facebook.png"></a>
-                <a href=""><img src="img/LinkedIn-Symbole.png"></a>
+                <a href=""><img src="img/twitter_log.png" alt="twiiter"> </a>
+                <a href=""><img src="img/logo-facebook.png" alt="facebook"></a>
+                <a href=""><img src="img/LinkedIn-Symbole.png" alt="linkedin"></a>
             </div>
             <div>
                 <p>Numéro de téléphone :</p>
@@ -21,5 +21,6 @@
 
 
 </footer>
+<script src="faq.js"></script>
 </body>
 </html>

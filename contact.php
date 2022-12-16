@@ -1,33 +1,39 @@
 <?php
 include_once 'doctype_template.php';
 ?>
+<div class="home_quote">
 
+</div>
 
     <div class="contact">
-
+        <div class="flex">
+            <h2>Nous </h2>
+            <h2 class="font-color"> Contacter</h2>
+        </div>
         <div>
-            <h1>Nous contacter</h1>
+            <div>
+
+                <a href=""><img src="img/logo-facebook.png" alt="facebook"></a>
+                <a href=""><img src="img/LinkedIn-Symbole.png" alt="linkedin"></a>
+            </div>
+        </div>
+        <div>
+
             <div class="cont">
 
             <div>
-                <p>Numéro de téléphone :</p>
-                <p>Adresses mail :</p>
+                <p>Numéro de téléphone : 06 07 25 96 88
+                    </p>
+                <p>Adresses mail : b-p-s@orange.fr</p>
+                <p> Adresse 45 Rue Jules Ferry, 91390 Morsang-Sur-Orge</p>
             </div>
-                <div>
-                    <img src="img/sign.webp">
-                </div>
-            </div>
-        </div>
-        <div>
-            <h2>Nos Réseaux</h2>
-            <div>
 
-                <a href=""><img src="img/twitter_log.png"> </a>
-                <a href=""><img src="img/logo-facebook.png"></a>
-                <a href=""><img src="img/LinkedIn-Symbole.png"></a>
-                </div>
+            </div>
         </div>
+
     </div>
-
+<?php
+require_once 'footer_template.php';
+?>
 </body>
 </html>

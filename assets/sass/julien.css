@@ -169,6 +169,9 @@ nav ul li a:hover {
     margin: 2rem 0;
   }
 }
+.devis h1 {
+  font-size: 3rem;
+}
 .devis h2 {
   text-transform: uppercase;
   text-align: center;
