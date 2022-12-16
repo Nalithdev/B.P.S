@@ -453,18 +453,19 @@ a {
 
 .containerFAQ {
   padding-top: 125px;
+  padding-bottom: 5rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
   background-color: #FFFFFF;
 }
 .containerFAQ > div {
   align-items: center;
+  margin: auto;
   padding: 20px;
-  width: 460px;
+  width: 50%;
   height: 20%;
-  border-radius: 3px;
+  border-radius: 100px;
 }
 .containerFAQ > div .hidden {
   display: none;
@@ -473,19 +474,14 @@ a {
   color: yellow;
 }
 
-.questionFAQ.hidden {
-  width: 460px;
-  height: 40vh;
-}
-
 .TitleAndIcon {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #6c91df;
-  border-radius: 4px;
+  border-radius: 100px;
   padding: 4px;
+  border: 1px solid black;
 }
 
 .TitleAndIcon:hover {
@@ -505,7 +501,6 @@ a {
 }
 
 p.questionResponse {
-  background-color: #2856B8;
   padding: 5%;
 }
 
