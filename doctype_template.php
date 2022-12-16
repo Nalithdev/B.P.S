@@ -7,21 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <link rel="stylesheet" href="Ethan.css" >
-
-    <link rel="preconnect" href="https://use.typekit.net/pwi7gtt.css">
-
-    <meta name="description" content="La meta description de la page. Description de la page 
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe officiis exercitationem 
-  
-    
-        accusantium. Minima harum ea libero. Odio nobis quos possimus dicta. "/>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap" rel="stylesheet">
 
      <script src="https://kit.fontawesome.com/dd939f4e1e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
-
 <body>
     <header>
         <nav>
