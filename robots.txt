@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: footer_template.php
+Disallow: doctype_template.php
+Disallow: README.md
