@@ -13,7 +13,7 @@ include_once 'doctype_template.php';
 <div class="containerFAQ">
 
 
-    <div class="questionFAQ questionFAQ1 hidden">
+    <div class="questionFAQ  hidden">
         <div class="TitleAndIcon">
             <h3 class="questionTitle ">TITRE</h3>
             <i class="fa-solid fa-plus"></i>
@@ -28,7 +28,7 @@ include_once 'doctype_template.php';
             id amet est quas!
         </p>
     </div>
-    <div class="questionFAQ questionFAQ2 hidden">
+    <div class="questionFAQ  hidden">
         <div class="TitleAndIcon">
             <h3 class="questionTitle ">TITRE</h3>
             <i class="fa-solid fa-plus"></i>
@@ -44,7 +44,7 @@ include_once 'doctype_template.php';
             commodi?
         </p>
     </div>
-    <div class="questionFAQ questionFAQ1 hidden">
+    <div class="questionFAQ  hidden">
         <div class="TitleAndIcon">
             <h3 class="questionTitle ">TITRE</h3>
             <i class="fa-solid fa-plus"></i>
@@ -59,7 +59,7 @@ include_once 'doctype_template.php';
             id amet est quas!
         </p>
     </div>
-    <div class="questionFAQ questionFAQ1 hidden">
+    <div class="questionFAQ  hidden">
         <div class="TitleAndIcon">
             <h3 class="questionTitle ">TITRE</h3>
             <i class="fa-solid fa-plus"></i>
@@ -74,7 +74,7 @@ include_once 'doctype_template.php';
             id amet est quas!
         </p>
     </div>
-    <div class="questionFAQ questionFAQ1 hidden">
+    <div class="questionFAQ  hidden">
         <div class="TitleAndIcon">
             <h3 class="questionTitle ">TITRE</h3>
             <i class="fa-solid fa-plus"></i>
@@ -89,7 +89,7 @@ include_once 'doctype_template.php';
             id amet est quas!
         </p>
     </div>
-    <div class="questionFAQ questionFAQ1 hidden">
+    <div class="questionFAQ  hidden">
         <div class="TitleAndIcon">
             <h3 class="questionTitle ">TITRE</h3>
             <i class="fa-solid fa-plus"></i>
@@ -104,12 +104,11 @@ include_once 'doctype_template.php';
             id amet est quas!
         </p>
     </div>
+    </div>
+</main>
     <?php
     require_once 'footer_template.php';
     ?>
-</div>
-</main>
 
-</body>
 
-</html>
+
