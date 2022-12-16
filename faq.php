@@ -2,7 +2,10 @@
 include_once 'doctype_template.php';
 ?>
 <main>
-    <div class="home_quote"></div>
+    <div class="home_quote">
+        <h1 class="font-color">B.P.S</h1>
+        <h2>Balisage Protection Signalisation</h2>
+    </div>
 
     <div class="titreFAQ">
         <h1 class="font-color ">FAQ</h1>

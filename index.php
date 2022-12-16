@@ -23,18 +23,22 @@ require_once 'doctype_template.php';
     </div>
     <section class="home_first_sign">
         <div>
+            <a href="produit.php">
         <img src="img/sign.webp" alt="">
-            <p>Balisage</p>
+                <p>Balisage</p></a>
         </div>
 
         <div>
+            <a href="produit.php">
             <img src="img/sign.webp" alt="">
-            <p>Panneaux</p>
+                <p>Panneaux</p></a>
         </div>
 
         <div>
+            <a href="produit.php">
             <img src="img/sign.webp" alt="">
             <p>Travaux</p>
+            </a>
         </div>
     </section>
     <div class="home_first_sign_info">
